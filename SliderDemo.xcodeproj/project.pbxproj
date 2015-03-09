@@ -7,12 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F2416101A3E78AD00DDE242 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F24160F1A3E78AD00DDE242 /* Images-2.xcassets */; };
+		5F2416581A3E963F00DDE242 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2416571A3E963F00DDE242 /* SecondViewController.swift */; };
+		5F24165A1A3EAB7100DDE242 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2416591A3EAB7100DDE242 /* ThirdViewController.swift */; };
+		5F8320841A3FDD4900B9C684 /* Left.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F8320831A3FDD4900B9C684 /* Left.storyboard */; };
+		5F8320861A3FDD5700B9C684 /* Right.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F8320851A3FDD5700B9C684 /* Right.storyboard */; };
+		5F8320881A3FDF4400B9C684 /* LeftViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8320871A3FDF4400B9C684 /* LeftViewCell.swift */; };
+		5F83208A1A3FDF6300B9C684 /* RightViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8320891A3FDF6300B9C684 /* RightViewCell.swift */; };
+		5F83208C1A40095200B9C684 /* backGround@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F83208B1A40095200B9C684 /* backGround@2x.jpg */; };
+		5F8320C91A4031B200B9C684 /* PersonDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8320C81A4031B200B9C684 /* PersonDataController.swift */; };
 		5F88772F1A3AE50700CEB6FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F88772E1A3AE50700CEB6FC /* AppDelegate.swift */; };
-		5F8877311A3AE50700CEB6FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8877301A3AE50700CEB6FC /* ViewController.swift */; };
 		5F8877341A3AE50700CEB6FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F8877321A3AE50700CEB6FC /* Main.storyboard */; };
 		5F8877361A3AE50700CEB6FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F8877351A3AE50700CEB6FC /* Images.xcassets */; };
 		5F8877391A3AE50700CEB6FC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F8877371A3AE50700CEB6FC /* LaunchScreen.xib */; };
 		5F8877451A3AE50700CEB6FC /* SliderDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8877441A3AE50700CEB6FC /* SliderDemoTests.swift */; };
+		5F8877581A3AE5EC00CEB6FC /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8877501A3AE5EC00CEB6FC /* MMDrawerBarButtonItem.m */; };
+		5F8877591A3AE5EC00CEB6FC /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8877531A3AE5EC00CEB6FC /* MMDrawerController.m */; };
+		5F88775A1A3AE5EC00CEB6FC /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8877551A3AE5EC00CEB6FC /* MMDrawerVisualState.m */; };
+		5F88775B1A3AE5EC00CEB6FC /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8877571A3AE5EC00CEB6FC /* UIViewController+MMDrawerController.m */; };
+		5FE2F8071A3AE8F10026BBC4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE2F8061A3AE8F10026BBC4 /* MainViewController.swift */; };
+		5FE2F8091A3AE8FC0026BBC4 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE2F8081A3AE8FC0026BBC4 /* LeftViewController.swift */; };
+		5FE2F80B1A3AE9070026BBC4 /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE2F80A1A3AE9070026BBC4 /* RightViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +41,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F24160F1A3E78AD00DDE242 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		5F2416571A3E963F00DDE242 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SliderDemo/SecondViewController.swift; sourceTree = "<group>"; };
+		5F2416591A3EAB7100DDE242 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdViewController.swift; path = ../SliderDemo/ThirdViewController.swift; sourceTree = "<group>"; };
+		5F8320831A3FDD4900B9C684 /* Left.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Left.storyboard; sourceTree = "<group>"; };
+		5F8320851A3FDD5700B9C684 /* Right.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Right.storyboard; sourceTree = "<group>"; };
+		5F8320871A3FDF4400B9C684 /* LeftViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewCell.swift; sourceTree = "<group>"; };
+		5F8320891A3FDF6300B9C684 /* RightViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightViewCell.swift; sourceTree = "<group>"; };
+		5F83208B1A40095200B9C684 /* backGround@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "backGround@2x.jpg"; path = "SliderDemo/backGround@2x.jpg"; sourceTree = "<group>"; };
+		5F8320C81A4031B200B9C684 /* PersonDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDataController.swift; sourceTree = "<group>"; };
 		5F8877291A3AE50700CEB6FC /* SliderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F88772D1A3AE50700CEB6FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F88772E1A3AE50700CEB6FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5F8877301A3AE50700CEB6FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5F8877331A3AE50700CEB6FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F8877351A3AE50700CEB6FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5F8877381A3AE50700CEB6FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5F88773E1A3AE50700CEB6FC /* SliderDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SliderDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F8877431A3AE50700CEB6FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F8877441A3AE50700CEB6FC /* SliderDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderDemoTests.swift; sourceTree = "<group>"; };
+		5F88774F1A3AE5EC00CEB6FC /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		5F8877501A3AE5EC00CEB6FC /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		5F8877511A3AE5EC00CEB6FC /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		5F8877521A3AE5EC00CEB6FC /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		5F8877531A3AE5EC00CEB6FC /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		5F8877541A3AE5EC00CEB6FC /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		5F8877551A3AE5EC00CEB6FC /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		5F8877561A3AE5EC00CEB6FC /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		5F8877571A3AE5EC00CEB6FC /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		5FE2F8041A3AE6AD0026BBC4 /* SliderDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SliderDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		5FE2F8061A3AE8F10026BBC4 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../SliderDemo/MainViewController.swift; sourceTree = "<group>"; };
+		5FE2F8081A3AE8FC0026BBC4 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeftViewController.swift; path = ../SliderDemo/LeftViewController.swift; sourceTree = "<group>"; };
+		5FE2F80A1A3AE9070026BBC4 /* RightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RightViewController.swift; path = ../SliderDemo/RightViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +92,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F2416CD1A3EF18100DDE242 /* LeftControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5FE2F8081A3AE8FC0026BBC4 /* LeftViewController.swift */,
+				5F8320871A3FDF4400B9C684 /* LeftViewCell.swift */,
+				5F8320C81A4031B200B9C684 /* PersonDataController.swift */,
+			);
+			path = LeftControllers;
+			sourceTree = SOURCE_ROOT;
+		};
+		5F2416CE1A3EF18100DDE242 /* MiddleControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5FE2F8061A3AE8F10026BBC4 /* MainViewController.swift */,
+				5F2416591A3EAB7100DDE242 /* ThirdViewController.swift */,
+				5F2416571A3E963F00DDE242 /* SecondViewController.swift */,
+			);
+			path = MiddleControllers;
+			sourceTree = SOURCE_ROOT;
+		};
+		5F2416CF1A3EF18100DDE242 /* RightControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5FE2F80A1A3AE9070026BBC4 /* RightViewController.swift */,
+				5F8320891A3FDF6300B9C684 /* RightViewCell.swift */,
+			);
+			path = RightControllers;
+			sourceTree = SOURCE_ROOT;
+		};
 		5F8877201A3AE50700CEB6FC = {
 			isa = PBXGroup;
 			children = (
+				5F83208B1A40095200B9C684 /* backGround@2x.jpg */,
+				5F88774E1A3AE5EC00CEB6FC /* MMDrawerController */,
 				5F88772B1A3AE50700CEB6FC /* SliderDemo */,
 				5F8877411A3AE50700CEB6FC /* SliderDemoTests */,
 				5F88772A1A3AE50700CEB6FC /* Products */,
@@ -77,11 +144,15 @@
 		5F88772B1A3AE50700CEB6FC /* SliderDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5FE2F8051A3AE8CF0026BBC4 /* ViewControllers */,
 				5F88772E1A3AE50700CEB6FC /* AppDelegate.swift */,
-				5F8877301A3AE50700CEB6FC /* ViewController.swift */,
+				5FE2F8041A3AE6AD0026BBC4 /* SliderDemo-Bridging-Header.h */,
 				5F8877321A3AE50700CEB6FC /* Main.storyboard */,
+				5F8320831A3FDD4900B9C684 /* Left.storyboard */,
+				5F8320851A3FDD5700B9C684 /* Right.storyboard */,
 				5F8877351A3AE50700CEB6FC /* Images.xcassets */,
 				5F8877371A3AE50700CEB6FC /* LaunchScreen.xib */,
+				5F24160F1A3E78AD00DDE242 /* Images-2.xcassets */,
 				5F88772C1A3AE50700CEB6FC /* Supporting Files */,
 			);
 			path = SliderDemo;
@@ -110,6 +181,32 @@
 				5F8877431A3AE50700CEB6FC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F88774E1A3AE5EC00CEB6FC /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				5F88774F1A3AE5EC00CEB6FC /* MMDrawerBarButtonItem.h */,
+				5F8877501A3AE5EC00CEB6FC /* MMDrawerBarButtonItem.m */,
+				5F8877511A3AE5EC00CEB6FC /* MMDrawerController+Subclass.h */,
+				5F8877521A3AE5EC00CEB6FC /* MMDrawerController.h */,
+				5F8877531A3AE5EC00CEB6FC /* MMDrawerController.m */,
+				5F8877541A3AE5EC00CEB6FC /* MMDrawerVisualState.h */,
+				5F8877551A3AE5EC00CEB6FC /* MMDrawerVisualState.m */,
+				5F8877561A3AE5EC00CEB6FC /* UIViewController+MMDrawerController.h */,
+				5F8877571A3AE5EC00CEB6FC /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		5FE2F8051A3AE8CF0026BBC4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5F2416CE1A3EF18100DDE242 /* MiddleControllers */,
+				5F2416CD1A3EF18100DDE242 /* LeftControllers */,
+				5F2416CF1A3EF18100DDE242 /* RightControllers */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +290,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F8877341A3AE50700CEB6FC /* Main.storyboard in Resources */,
+				5F8320861A3FDD5700B9C684 /* Right.storyboard in Resources */,
 				5F8877391A3AE50700CEB6FC /* LaunchScreen.xib in Resources */,
+				5F2416101A3E78AD00DDE242 /* Images-2.xcassets in Resources */,
+				5F83208C1A40095200B9C684 /* backGround@2x.jpg in Resources */,
+				5F8320841A3FDD4900B9C684 /* Left.storyboard in Resources */,
 				5F8877361A3AE50700CEB6FC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +313,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F8877311A3AE50700CEB6FC /* ViewController.swift in Sources */,
+				5F88775A1A3AE5EC00CEB6FC /* MMDrawerVisualState.m in Sources */,
+				5F8877581A3AE5EC00CEB6FC /* MMDrawerBarButtonItem.m in Sources */,
+				5F8320881A3FDF4400B9C684 /* LeftViewCell.swift in Sources */,
+				5F88775B1A3AE5EC00CEB6FC /* UIViewController+MMDrawerController.m in Sources */,
+				5F8877591A3AE5EC00CEB6FC /* MMDrawerController.m in Sources */,
+				5F8320C91A4031B200B9C684 /* PersonDataController.swift in Sources */,
+				5FE2F8091A3AE8FC0026BBC4 /* LeftViewController.swift in Sources */,
+				5FE2F80B1A3AE9070026BBC4 /* RightViewController.swift in Sources */,
 				5F88772F1A3AE50700CEB6FC /* AppDelegate.swift in Sources */,
+				5F24165A1A3EAB7100DDE242 /* ThirdViewController.swift in Sources */,
+				5F2416581A3E963F00DDE242 /* SecondViewController.swift in Sources */,
+				5FE2F8071A3AE8F10026BBC4 /* MainViewController.swift in Sources */,
+				5F83208A1A3FDF6300B9C684 /* RightViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,9 +448,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SliderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "49725ada-5b6b-43ce-b0c1-f6dc95538086";
+				SWIFT_OBJC_BRIDGING_HEADER = "SliderDemo/SliderDemo-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -346,9 +462,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SliderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "49725ada-5b6b-43ce-b0c1-f6dc95538086";
+				SWIFT_OBJC_BRIDGING_HEADER = "SliderDemo/SliderDemo-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +525,7 @@
 				5F88774A1A3AE50700CEB6FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F88774B1A3AE50700CEB6FC /* Build configuration list for PBXNativeTarget "SliderDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +534,7 @@
 				5F88774D1A3AE50700CEB6FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

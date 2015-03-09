@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  SliderDemo
 //
-//  Created by 余新闻 on 14-12-12.
+//  Created by 新闻 on 14-12-12.
 //  Copyright (c) 2014年 Adways. All rights reserved.
 //
 
@@ -14,8 +14,44 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
+    var drawerController:MMDrawerController = MMDrawerController()
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        self.window!.backgroundColor = UIColor.whiteColor()
+        self.window!.makeKeyAndVisible()
+        
+        var centerViewController = MainViewController()
+        var leftViewController = LeftViewController()
+        var rightViewCotroller = RightViewController()
+        
+        var storyboard = UIStoryboard(name: "Main", bundle: nil)
+        var centerNavController = storyboard.instantiateInitialViewController() as UITabBarController
+        
+       // var leftNAvController = UINavigationController(rootViewController: leftViewController)
+       // var rightNAvController = UINavigationController(rootViewController: rightViewCotroller)
+        
+        var leftStoryboard = UIStoryboard(name: "Left", bundle: nil)
+        var leftNAvController = leftStoryboard.instantiateViewControllerWithIdentifier("LeftMain") as UINavigationController
+        
+        var rightStoryboard = UIStoryboard(name: "Right", bundle: nil)
+        var rightNAvController = rightStoryboard.instantiateViewControllerWithIdentifier("RightMain") as UINavigationController
+
+         drawerController = MMDrawerController(centerViewController: centerNavController, leftDrawerViewController: leftNAvController, rightDrawerViewController: rightNAvController)
+         drawerController.showsShadow = false
+        
+         drawerController.restorationIdentifier = "MMDrawer"
+         drawerController.maximumRightDrawerWidth = 200
+         drawerController.maximumLeftDrawerWidth = 200
+        
+        drawerController.openDrawerGestureModeMask = MMOpenDrawerGestureMode(5)
+        drawerController.closeDrawerGestureModeMask = MMCloseDrawerGestureMode(8)
+        
+ 
+        self.window?.rootViewController = drawerController
+        
+        
         return true
     }
 
@@ -39,6 +75,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    func application(application: UIApplication, viewControllerWithRestorationIdentifierPath identifierComponents: [AnyObject], coder: NSCoder) -> UIViewController? {
+        
+        var key : String = identifierComponents.last as  String
+        if key == "MMDrawer"
+        {
+            return self.window?.rootViewController
+        }else
+        
+        {
+            return nil
+        }
+        
     }
 
 
